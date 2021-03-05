@@ -1,9 +1,9 @@
 /* Style Sheet */
 
-@font-face {
+/* @font-face {
   font-family: "Roboto";
-  src: url("../assets/Roboto/Roboto-Regular.ttf");
-}
+  src: url("./img/Roboto/Roboto-Regular.ttf");
+} */
 
 :root {
   --primary-color: #ec5242;
@@ -15,7 +15,7 @@
 }
 
 body {
-  background: #0e0e0e url(../assets/2542.jpg);
+  background: #0e0e0e url(./img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Roboto, Arial, sans-serif !important;
