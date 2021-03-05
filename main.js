@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\nvar content = document.querySelector('#content');\ncontent.innerHTML = 'content';\n\n//# sourceURL=webpack://portfolio/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _img_male_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/male.svg */ \"./src/img/male.svg\");\n/* harmony import */ var _img_Screenshot221_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/Screenshot221.png */ \"./src/img/Screenshot221.png\");\n/* harmony import */ var _img_Screenshot222_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/Screenshot222.png */ \"./src/img/Screenshot222.png\");\n/* harmony import */ var _img_Screenshot22_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/Screenshot22.png */ \"./src/img/Screenshot22.png\");\n/* harmony import */ var _img_Screenshot_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/Screenshot.png */ \"./src/img/Screenshot.png\");\n/* harmony import */ var _img_Screenshot33_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./img/Screenshot33.png */ \"./src/img/Screenshot33.png\");\n/* harmony import */ var _img_Screenshot44_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./img/Screenshot44.png */ \"./src/img/Screenshot44.png\");\n\n\n\n\n\n\n\n\nvar avatar = document.querySelector('#avatar');\navatar.src = _img_male_svg__WEBPACK_IMPORTED_MODULE_1__.default;\nvar profile = document.querySelector('#profile');\nprofile.src = _img_male_svg__WEBPACK_IMPORTED_MODULE_1__.default;\nvar imgScreenshot2 = document.querySelector('#imgScreenshot2');\nimgScreenshot2.src = _img_Screenshot22_png__WEBPACK_IMPORTED_MODULE_4__.default;\nvar imgScreenshot3 = document.querySelector('#imgScreenshot3');\nimgScreenshot3.src = _img_Screenshot_png__WEBPACK_IMPORTED_MODULE_5__.default;\nvar imgScreenshot4 = document.querySelector('#imgScreenshot4');\nimgScreenshot4.src = _img_Screenshot33_png__WEBPACK_IMPORTED_MODULE_6__.default;\nvar imgScreenshot5 = document.querySelector('#imgScreenshot5');\nimgScreenshot5.src = _img_Screenshot44_png__WEBPACK_IMPORTED_MODULE_7__.default;\nvar imgScreenshot6 = document.querySelector('#projectTodDo');\nimgScreenshot6.src = _img_Screenshot221_png__WEBPACK_IMPORTED_MODULE_2__.default;\nvar imgScreenshot7 = document.querySelector('#projectRest');\nimgScreenshot7.src = _img_Screenshot222_png__WEBPACK_IMPORTED_MODULE_3__.default;\n\n//# sourceURL=webpack://portfolio/./src/index.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_bg_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/bg.jpg */ \"./src/img/bg.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_bg_jpg__WEBPACK_IMPORTED_MODULE_2__.default);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* Style Sheet */\\n\\n/* @font-face {\\n  font-family: \\\"Roboto\\\";\\n  src: url(\\\"./img/Roboto/Roboto-Regular.ttf\\\");\\n} */\\n\\n:root {\\n  --primary-color: #ec5242;\\n  --dark-color: #0e0e0e;\\n  --gray-color: #d3d3d3;\\n  --gray-60-color: #2120204d;\\n  --white-transparent: #f6f7f726;\\n  --primary-transparent: #ec53423b;\\n}\\n\\nbody {\\n  background: #0e0e0e url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-size: cover;\\n  background-repeat: no-repeat;\\n  font-family: Roboto, Arial, sans-serif !important;\\n  font-size: 100%;\\n}\\n\\n/* GLOBALS */\\n\\nhtml {\\n  box-sizing: border-box;\\n  font-size: 100%;\\n  font-family: Roboto, Arial, sans-serif !important;\\n}\\n\\nimg {\\n  max-width: 100%;\\n  height: auto;\\n}\\n\\na {\\n  color: var(--gray-color) !important;\\n  text-decoration: none;\\n}\\n\\na:hover {\\n  color: var(--primary-color) !important;\\n  text-decoration: none;\\n}\\n\\nh2 {\\n  font-weight: bolder;\\n}\\n\\np {\\n  margin-bottom: 0 !important;\\n}\\n\\nfooter {\\n  margin: auto !important;\\n  display: block !important;\\n}\\n\\n/* COLORS */\\n\\n.c-primary {\\n  color: var(--primary-color) !important;\\n}\\n\\n.c-dark {\\n  color: var(--dark-color);\\n}\\n\\n.c-gray {\\n  color: var(--gray-color);\\n}\\n\\n.bg-primary_ {\\n  background-color: var(--primary-color) !important;\\n}\\n\\n.bg-dark {\\n  background-color: var(--dark-color);\\n}\\n\\n.bg-gray {\\n  background-color: var(--gray-color);\\n}\\n\\n.bg-w-transparent {\\n  background-color: var(--white-transparent);\\n}\\n\\n.row {\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.col-sm,\\n.col-sm-2,\\n.col-sm-6,\\n.col-sm-8,\\n.col-sm-4 {\\n  padding: 0;\\n}\\n\\n.my-exp {\\n  cursor: pointer;\\n}\\n\\n.my-exp:hover {\\n  cursor: pointer;\\n  background-color: var(--primary-transparent);\\n  transition: 0.5s;\\n}\\n\\n.col-gap {\\n  column-gap: 1.5rem;\\n}\\n\\n.sep {\\n  background: var(--primary-color);\\n  width: 1%;\\n}\\n\\n.sep-b {\\n  border-bottom: 0.5rem solid var(--primary-color) !important;\\n  height: 100%;\\n}\\n\\n.img-container {\\n  background-color: var(--primary-transparent);\\n}\\n\\n.img-container img {\\n  opacity: 0.6;\\n}\\n\\n.img-container img:hover {\\n  opacity: 0.8;\\n  transition: 1s;\\n}\\n\\n.info_project {\\n  background: #fff;\\n  position: absolute;\\n  left: 0;\\n  width: 85%;\\n  top: 25%;\\n  border-radius: 4px;\\n  box-shadow: 0px 10px 30px rgba(255, 253, 253, 0.15);\\n  color: #0e0e0e;\\n  padding: 10px;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://portfolio/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_bg_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/bg.jpg */ \"./src/img/bg.jpg\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_img_bg_jpg__WEBPACK_IMPORTED_MODULE_2__.default);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* Style Sheet */\\n\\n/* @font-face {\\n  font-family: \\\"Roboto\\\";\\n  src: url(\\\"./img/Roboto/Roboto-Regular.ttf\\\");\\n} */\\n\\n:root {\\n  --primary-color: #ec5242;\\n  --dark-color: #0e0e0e;\\n  --gray-color: #d3d3d3;\\n  --gray-60-color: #2120204d;\\n  --white-transparent: #f6f7f726;\\n  --primary-transparent: #ec53423b;\\n}\\n\\nbody {\\n  background: #0e0e0e url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-size: cover;\\n  background-repeat: no-repeat;\\n  font-family: Roboto, Arial, sans-serif !important;\\n  font-size: 100%;\\n}\\n\\n/* GLOBALS */\\n\\nhtml {\\n  box-sizing: border-box;\\n  font-size: 100%;\\n  font-family: Roboto, Arial, sans-serif !important;\\n}\\n\\nimg {\\n  max-width: 100%;\\n  height: auto;\\n}\\n\\na {\\n  color: var(--gray-color) !important;\\n  text-decoration: none;\\n}\\n\\na:hover {\\n  color: var(--primary-color) !important;\\n  text-decoration: none;\\n}\\n\\nh2 {\\n  font-weight: bolder;\\n}\\n\\np {\\n  margin-bottom: 0 !important;\\n}\\n\\nfooter {\\n  margin: auto !important;\\n  display: block !important;\\n}\\n\\n/* COLORS */\\n\\n.c-primary {\\n  color: var(--primary-color) !important;\\n}\\n\\n.c-dark {\\n  color: var(--dark-color);\\n}\\n\\n.c-gray {\\n  color: var(--gray-color);\\n}\\n\\n.bg-primary_ {\\n  background-color: var(--primary-color) !important;\\n}\\n\\n.bg-dark {\\n  background-color: var(--dark-color);\\n}\\n\\n.bg-gray {\\n  background-color: var(--gray-color);\\n}\\n\\n.bg-w-transparent {\\n  background-color: var(--white-transparent);\\n}\\n\\n.row {\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.col-sm,\\n.col-sm-2,\\n.col-sm-6,\\n.col-sm-8,\\n.col-sm-4 {\\n  padding: 0;\\n}\\n\\n.my-exp {\\n  cursor: pointer;\\n}\\n\\n.my-exp:hover {\\n  cursor: pointer;\\n  background-color: var(--primary-transparent);\\n  transition: 0.5s;\\n}\\n\\n.col-gap {\\n  column-gap: 1.5rem;\\n}\\n\\n.sep {\\n  background: var(--primary-color);\\n  width: 1%;\\n}\\n\\n.sep-b {\\n  border-bottom: 0.5rem solid var(--primary-color) !important;\\n  height: 100%;\\n}\\n\\n.img-container {\\n  background-color: var(--primary-transparent);\\n}\\n\\n.img-container img {\\n  opacity: 0.6;\\n}\\n\\n.img-container img:hover {\\n  opacity: 0.8;\\n  transition: 1s;\\n}\\n\\n.info_project {\\n  background: #fff;\\n  position: absolute;\\n  left: 0;\\n  width: 85%;\\n  top: 25%;\\n  border-radius: 4px;\\n  box-shadow: 0px 10px 30px rgba(255, 253, 253, 0.15);\\n  color: #0e0e0e;\\n  padding: 10px;\\n}\\n\\n.p-r {\\n  position: relative;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://portfolio/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -50,6 +50,66 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // 
 
 /***/ }),
 
+/***/ "./src/img/Screenshot.png":
+/*!********************************!*\
+  !*** ./src/img/Screenshot.png ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"193e7a3eabe30a6136804ffa6479b83b.png\");\n\n//# sourceURL=webpack://portfolio/./src/img/Screenshot.png?");
+
+/***/ }),
+
+/***/ "./src/img/Screenshot22.png":
+/*!**********************************!*\
+  !*** ./src/img/Screenshot22.png ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8a294369b19a1997d92648e67b978d5e.png\");\n\n//# sourceURL=webpack://portfolio/./src/img/Screenshot22.png?");
+
+/***/ }),
+
+/***/ "./src/img/Screenshot221.png":
+/*!***********************************!*\
+  !*** ./src/img/Screenshot221.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8704167d8f76e96d83d83eb83e23fa66.png\");\n\n//# sourceURL=webpack://portfolio/./src/img/Screenshot221.png?");
+
+/***/ }),
+
+/***/ "./src/img/Screenshot222.png":
+/*!***********************************!*\
+  !*** ./src/img/Screenshot222.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"04db8f48d0aec613aaa6e205f68aea76.png\");\n\n//# sourceURL=webpack://portfolio/./src/img/Screenshot222.png?");
+
+/***/ }),
+
+/***/ "./src/img/Screenshot33.png":
+/*!**********************************!*\
+  !*** ./src/img/Screenshot33.png ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"9f99eba297277aa84fe61c0efe0538cc.png\");\n\n//# sourceURL=webpack://portfolio/./src/img/Screenshot33.png?");
+
+/***/ }),
+
+/***/ "./src/img/Screenshot44.png":
+/*!**********************************!*\
+  !*** ./src/img/Screenshot44.png ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"fab24266f2301d035186766cd3c3cc4a.png\");\n\n//# sourceURL=webpack://portfolio/./src/img/Screenshot44.png?");
+
+/***/ }),
+
 /***/ "./src/img/bg.jpg":
 /*!************************!*\
   !*** ./src/img/bg.jpg ***!
@@ -57,6 +117,16 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6cff6fed2d2a10c9c3b74eecede3184b.jpg\");\n\n//# sourceURL=webpack://portfolio/./src/img/bg.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/male.svg":
+/*!**************************!*\
+  !*** ./src/img/male.svg ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"2ad0793748fba90b466cf84e2a7e2cf2.svg\");\n\n//# sourceURL=webpack://portfolio/./src/img/male.svg?");
 
 /***/ }),
 

@@ -149,3 +149,7 @@ footer {
   color: #0e0e0e;
   padding: 10px;
 }
+
+.p-r {
+  position: relative;
+}
