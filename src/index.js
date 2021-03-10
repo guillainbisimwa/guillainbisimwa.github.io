@@ -7,6 +7,8 @@ import project2 from './img/Screenshot.png';
 import project3 from './img/Screenshot33.png';
 import project4 from './img/Screenshot44.png';
 
+const getBlogs = require('./scripts/mediumApi');
+
 const avatar = document.querySelector('#avatar');
 avatar.src = avatarPic;
 
@@ -27,3 +29,5 @@ imgScreenshot6.src = projectTodDo;
 
 const imgScreenshot7 = document.querySelector('#projectRest');
 imgScreenshot7.src = projectRest;
+
+getBlogs();
