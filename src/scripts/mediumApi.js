@@ -23,8 +23,8 @@ const getBlogs = () => {
             <a href="${item.link}">
                 <img src="${item.thumbnail}" class="img-thumbnail img-fluid">
                 <div class="blog__content">
-                  <div class="blog_preview">
-                      <h3 class="fw-bold mt-1">${shortenText(item.title, 0, 30)}...</h3>
+                  <div class="">
+                      <h3 class="fw-bold mt-1 col-12 text-truncate">${shortenText(item.title, 0, 30)}</h3>
                       <p class="blog__intro">${shortenText(toText(item.content), 0, 300)}...</p>
                   </div>
                   <hr>
