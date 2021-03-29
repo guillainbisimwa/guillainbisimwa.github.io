@@ -6,6 +6,7 @@ import project1 from './img/Screenshot22.png';
 import project2 from './img/Screenshot.png';
 import project3 from './img/Screenshot33.png';
 import project4 from './img/Screenshot44.png';
+import projectGame from './img/Screenshotgame.png';
 
 const Email = { send: function (a) { return new Promise(function (n, e) { a.nocache = Math.floor(1e6 * Math.random() + 1), a.Action = "Send"; var t = JSON.stringify(a); Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function (e) { n(e) }) }) }, ajaxPost: function (e, n, t) { var a = Email.createCORSRequest("POST", e); a.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), a.onload = function () { var e = a.responseText; null != t && t(e) }, a.send(n) }, ajax: function (e, n) { var t = Email.createCORSRequest("GET", e); t.onload = function () { var e = t.responseText; null != n && n(e) }, t.send() }, createCORSRequest: function (e, n) { var t = new XMLHttpRequest; return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t } };
 
@@ -31,6 +32,9 @@ imgScreenshot6.src = projectTodDo;
 
 const imgScreenshot7 = document.querySelector('#projectRest');
 imgScreenshot7.src = projectRest;
+
+const theProjectGame = document.querySelector('#projectGame');
+theProjectGame.src = projectGame;
 
 //getBlogs();
 
