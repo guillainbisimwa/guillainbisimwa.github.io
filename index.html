@@ -649,7 +649,13 @@
             <div class="row justify-content-center pt-4">
               <div class="col-12 col-md-12 col-lg-10">
                 <!-- Form -->
-                <div>
+                <form
+                  id="fs-frm"
+                  name="simple-contact-form"
+                  accept-charset="utf-8"
+                  action="https://formspree.io/f/myylgayb"
+                  method="post"
+                  >
                   <div class="row">
                     <div class="col-12 col-md-6">
                       <div class="form-group mb-5">
@@ -660,8 +666,10 @@
                         <input
                           type="text"
                           class="form-control"
-                          id="contactName"
                           placeholder="Full name"
+                          name="name"
+                          id="full-name"
+                          required
                         />
                       </div>
                     </div>
@@ -674,8 +682,10 @@
                         <input
                           type="email"
                           class="form-control"
-                          id="contactEmail"
+                          name="_replyto"
+                          id="email-address"
                           placeholder="hello@domain.com"
+                          required
                         />
                       </div>
                     </div>
@@ -692,7 +702,8 @@
                         <!-- Input -->
                         <textarea
                           class="form-control"
-                          id="contactMessage"
+                          name="message"
+                          id="message"
                           rows="5"
                           placeholder="Put your message here"
                         ></textarea>
@@ -703,6 +714,18 @@
                   <div class="row justify-content-center">
                     <div class="col-auto">
                       <!-- Submit -->
+                      <input
+                        type="hidden"
+                        name="_subject"
+                        id="email-subject"
+                        value="Contact Form Submission"
+                      />
+                      <!-- <ReCAPTCHA
+                        ref={recaptchaRef}
+                        size="invisible"
+                        sitekey="6Lfl0tAZAAAAACGkkVOvgt85I_kgTDtBsq0Ht1ch"
+                        onChange={onChange}
+                      /> -->
                       <button
                         type="submit"
                         class="btn btn-primary lift mt-3"
@@ -713,11 +736,11 @@
                     </div>
                   </div>
                   <!-- / .row -->
-                </div>
+                </form>
               </div>
             </div>
             <!-- / .row -->
-          </div>
+          </form>
           <!-- / .container -->
         </section>
       </main>
