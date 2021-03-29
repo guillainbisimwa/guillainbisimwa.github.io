@@ -15,6 +15,9 @@ I love working with React, React Native, Javascript, Ruby, and Ruby on Rails.
 
 ## Projects
 
+- [Game-adventure](https://github.com/guillainbisimwa/Game-adventure) -This is a 2D side-scrolling action game where players take control of a little girl, running, and jumping through the virtual city! The mission is to collect as many gifts as possible while avoiding an array of obstacles to reach a final goal. Built with: `JavaScript`, `Phaser3`, `Git`, `Webpack`, `Eslint`, `Babel`.
+  [Live version](http://gbisimwa.me/Game-adventure/dist/)
+
 - [Weather-App](https://github.com/guillainbisimwa/Weather-App) - A weather app that pulls from the OpenWeatherMap API to allow users to search for and view the forecast in cities worldwide. Built with: `JavaScript`, `ES6`, `Git`, `Webpack`, `Eslint`, `Babel`, `OpenWeatherMap API`.
   [Live version](http://gbisimwa.me/Weather-App/)
 
