@@ -2,7 +2,7 @@
 
 Hello! My name is Guillain, and I'm a full-stack software engineer who specializes in using Javascript, Python, React, Redux, React Native, and Rails to build software solutions for small businesses.
 
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/) || [Twitter](https://twitter.com/gullain_bisimwa) || guillainbisimwa@hotmail.fr || [website](http://gbisimwa.me/)
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/) || [Twitter](https://twitter.com/gullain_bisimwa) || guillainbisimwa@hotmail.fr || [website](http://gbisimwa.me/) || [blog](http://gbisimwa.me/blog)
 
 - 📄 Know about my experiences [https://drive.google.com/file/d/1pk1DedK4cquTUmTBW6Cgfz1iaJGpdsHN/view?usp=sharing](https://drive.google.com/file/d/1pk1DedK4cquTUmTBW6Cgfz1iaJGpdsHN/view?usp=sharing)
 
