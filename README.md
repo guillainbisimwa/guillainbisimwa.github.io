@@ -1,10 +1,8 @@
 # About Me
 
-Hi I’m Guillain, a Full-Stack Web Developer. Ready to collaborate within a productive team both remotely and locally. Don't hesitate to contact me.
+Hello! My name is Guillain, and I'm a full-stack software engineer who specializes in using Javascript, Python, React, Redux, React Native, and Rails to build software solutions for small businesses.
 
-I love working with React, React Native, Javascript, Ruby, and Ruby on Rails.
-
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/) || [Twitter](https://twitter.com/gullain_bisimwa) || guillainbisimwa@hotmail.fr
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/) || [Twitter](https://twitter.com/gullain_bisimwa) || guillainbisimwa@hotmail.fr || [website](http://gbisimwa.me/) || [blog](http://gbisimwa.me/blog)
 
 - 📄 Know about my experiences [https://drive.google.com/file/d/1pk1DedK4cquTUmTBW6Cgfz1iaJGpdsHN/view?usp=sharing](https://drive.google.com/file/d/1pk1DedK4cquTUmTBW6Cgfz1iaJGpdsHN/view?usp=sharing)
 
