@@ -11,10 +11,8 @@ import projectGame from './img/Screenshotgame.png';
 
 const avatar = document.querySelector('#avatar');
 avatar.src = avatarPic;
-
 const profile = document.querySelector('#profile');
 profile.src = profilePic;
-
 const imgScreenshot2 = document.querySelector('#imgScreenshot2');
 imgScreenshot2.src = project1;
 const imgScreenshot3 = document.querySelector('#imgScreenshot3');
