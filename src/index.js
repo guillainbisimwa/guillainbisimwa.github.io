@@ -1,5 +1,6 @@
 import './style.css';
 import avatarPic from './img/male.svg';
+import profilePic from './img/guy5.png';
 import projectTodDo from './img/Screenshot221.png';
 import projectRest from './img/Screenshot222.png';
 import project1 from './img/Screenshot22.png';
@@ -11,10 +12,8 @@ const Email = { send: function (a) { return new Promise(function (n, e) { a.noca
 
 const avatar = document.querySelector('#avatar');
 avatar.src = avatarPic;
-
 const profile = document.querySelector('#profile');
-profile.src = avatarPic;
-
+profile.src = profilePic;
 const imgScreenshot2 = document.querySelector('#imgScreenshot2');
 imgScreenshot2.src = project1;
 const imgScreenshot3 = document.querySelector('#imgScreenshot3');
