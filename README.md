@@ -1,3 +1,9 @@
+---
+noteId: "8edf0650a84611eb9ad3b76667343236"
+tags: []
+
+---
+
 # About Me
 
 Hi I’m Guillain, a Full-Stack Web Developer. Ready to collaborate within a productive team both remotely and locally. Don't hesitate to contact me.
