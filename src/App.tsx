@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
+import Main from '../src/screens/Main'
 import './App.css';
 
 const App = () =>{
   return (
     <div className="App">
-      <h2>OK</h2>
+      <Main />
     </div>
   );
 }
