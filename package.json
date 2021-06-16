@@ -1,6 +1,6 @@
 {
   "name": "guillainbisimwa.github.io",
-  "homepage": "https://guillainbisimwa.github.io",
+  "homepage": "http://gbisimwa.me/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,7 +37,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b home -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
