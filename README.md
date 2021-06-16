@@ -1,3 +1,9 @@
+---
+noteId: "1c100360ceeb11eba92d2dc07188c34a"
+tags: []
+
+---
+
 # About Me
 
 Hello! My name is Guillain, and I'm a full-stack software engineer who specializes in using Javascript, Python, React, Redux, React Native, and Rails to build software solutions for small businesses.
