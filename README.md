@@ -1,7 +1,6 @@
 ---
 noteId: "1c100360ceeb11eba92d2dc07188c34a"
 tags: []
-
 ---
 
 # About Me
