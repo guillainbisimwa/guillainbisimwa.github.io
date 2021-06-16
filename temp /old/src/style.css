@@ -1,0 +1,155 @@
+/* Style Sheet */
+
+/* @font-face {
+  font-family: "Roboto";
+  src: url("./img/Roboto/Roboto-Regular.ttf");
+} */
+
+:root {
+  --primary-color: #ec5242;
+  --dark-color: #0e0e0e;
+  --gray-color: #d3d3d3;
+  --gray-60-color: #2120204d;
+  --white-transparent: #f6f7f726;
+  --primary-transparent: #ec53423b;
+}
+
+body {
+  background: #0e0e0e url(./img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Roboto, Arial, sans-serif !important;
+  font-size: 100%;
+}
+
+/* GLOBALS */
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Roboto, Arial, sans-serif !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--gray-color) !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+footer {
+  margin: auto !important;
+  display: block !important;
+}
+
+/* COLORS */
+
+.c-primary {
+  color: var(--primary-color) !important;
+}
+
+.c-dark {
+  color: var(--dark-color);
+}
+
+.c-gray {
+  color: var(--gray-color);
+}
+
+.bg-primary_ {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+}
+
+.bg-gray {
+  background-color: var(--gray-color);
+}
+
+.bg-w-transparent {
+  background-color: var(--white-transparent);
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.col-sm,
+.col-sm-2,
+.col-sm-6,
+.col-sm-8,
+.col-sm-4 {
+  padding: 0;
+}
+
+.my-exp {
+  cursor: pointer;
+}
+
+.my-exp:hover {
+  cursor: pointer;
+  background-color: var(--primary-transparent);
+  transition: 0.5s;
+}
+
+.col-gap {
+  column-gap: 1.5rem;
+}
+
+.sep {
+  background: var(--primary-color);
+  width: 1%;
+}
+
+.sep-b {
+  border-bottom: 0.5rem solid var(--primary-color) !important;
+  height: 100%;
+}
+
+.img-container {
+  background-color: var(--primary-transparent);
+}
+
+.img-container img {
+  opacity: 0.6;
+}
+
+.img-container img:hover {
+  opacity: 0.8;
+  transition: 1s;
+}
+
+.info_project {
+  background: #fff;
+  position: absolute;
+  left: 0;
+  width: 85%;
+  top: 25%;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(255, 253, 253, 0.15);
+  color: #0e0e0e;
+  padding: 10px;
+}
+
+.p-r {
+  position: relative;
+}
