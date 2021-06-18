@@ -2,7 +2,7 @@
   "name": "guillainbisimwa.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://guillainbisimwa.github.io/",
+  "homepage": "http://gbisimwa.me/",
   "dependencies": {
     "@babel/core": "7.x",
     "@babel/eslint-parser": "7.x",
