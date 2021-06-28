@@ -48,7 +48,7 @@ const NavBar = () => {
                                 href="#"
                                 rel="noopener"
                             >
-                                <img id="avatar" width="50" alt="Logo" />
+                            <img id="avatar" width="50" alt="Logo" src="https://img.icons8.com/cotton/64/000000/checked-laptop.png"/>
                             </a>
                             <div className="navbar-nav me-auto"></div>
 
