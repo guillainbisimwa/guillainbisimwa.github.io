@@ -8,8 +8,7 @@
 }
 
 body {
-  /* background: #0e0e0e url(./img/bg.jpg); */
-  background: #0e0e0e;
+  background: #0e0e0e url(./bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Roboto, Arial, sans-serif !important;
