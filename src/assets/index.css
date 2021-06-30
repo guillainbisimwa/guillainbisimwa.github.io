@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ec5242;
   --dark-color: #0e0e0e;
+  --white-color: #fff;
   --gray-color: #d3d3d3;
   --gray-60-color: #2120204d;
   --white-transparent: #f6f7f726;
@@ -106,6 +107,10 @@ footer {
 
 .col-gap {
   column-gap: 1.5rem;
+}
+
+#home {
+  color: var(--white-color);
 }
 
 .sep {
