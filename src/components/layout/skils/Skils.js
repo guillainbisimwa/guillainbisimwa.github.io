@@ -1,4 +1,17 @@
-import github from './../../../assets/github.png'
+import html from './../../../assets/html.png';
+import css from './../../../assets/css.png';
+import javascript from './../../../assets/javascript.png';
+import ts from './../../../assets/ts.png';
+import ruby from './../../../assets/ruby.png';
+import bootstrap from './../../../assets/bootstrap.png';
+import material from './../../../assets/material.png';
+import heroku from './../../../assets/heroku.png';
+import docker from './../../../assets/docker.png';
+import python from './../../../assets/python.png';
+import react from './../../../assets/react.png';
+import redux from './../../../assets/redux.png';
+import github from './../../../assets/github.png';
+import mongodb from './../../../assets/mongodb.png';
 
 const Skils = () => {
     return (
@@ -60,7 +73,7 @@ const Skils = () => {
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src={github} alt="html" />
+                        <img src={html} alt="html" />
                     </div>
                     <div class="skills-name">
                         <p>html</p>
@@ -70,7 +83,7 @@ const Skils = () => {
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/css.png" alt="css" />
+                        <img src={css} alt="css" />
                     </div>
                     <div class="skills-name">
                         <p>css</p>
@@ -80,7 +93,7 @@ const Skils = () => {
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/javascript.png" alt="javascript" />
+                        <img src={javascript} alt="javascript" />
                     </div>
                     <div class="skills-name">
                         <p>javascript</p>
@@ -90,7 +103,7 @@ const Skils = () => {
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/bootstrap.png" alt="bootstrap" />
+                        <img src={bootstrap}  alt="bootstrap" />
                     </div>
                     <div class="skills-name">
                         <p>bootstrap</p>
@@ -100,47 +113,47 @@ const Skils = () => {
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/jquery.png" alt="jquery" />
+                        <img src={ruby}  alt="jquery" />
                     </div>
                     <div class="skills-name">
-                        <p>jquery</p>
+                        <p>Ruby/Rails</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/sass.png" alt="sass" />
+                        <img src={react} alt="sass" />
                     </div>
                     <div class="skills-name">
-                        <p>sass</p>
+                        <p>React</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/wordpress.png" alt="wordpress" />
+                        <img src={redux}  alt="wordpress" />
                     </div>
                     <div class="skills-name">
-                        <p>wordpress</p>
+                        <p>redux</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/react.png" alt="react" />
+                        <img src={docker} alt="react" />
                     </div>
                     <div class="skills-name">
-                        <p>react</p>
+                        <p>docker</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/github.png" alt="github" />
+                        <img src={github} alt="github" />
                     </div>
                     <div class="skills-name">
                         <p>github</p>
@@ -150,30 +163,30 @@ const Skils = () => {
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/vscode.png" alt="vscode" />
+                        <img src={mongodb} alt="vscode" />
                     </div>
                     <div class="skills-name">
-                        <p>vscode</p>
+                        <p>Mongodb</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/photoshop.png" alt="photoshop" />
+                        <img src={heroku} alt="photoshop" />
                     </div>
                     <div class="skills-name">
-                        <p>photoshop</p>
+                        <p>heroku</p>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
                 <div class="skills-card">
                     <div class="skills-img">
-                        <img src="assets/images/illustrator.png" alt="illustrator" />
+                        <img  src={python} alt="illustrator" />
                     </div>
                     <div class="skills-name">
-                        <p>illustrator</p>
+                        <p>python</p>
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@
   --primary-color: #ec5242;
   --dark-color: #0e0e0e;
   --white-color: #fff;
-  --gray-color: #d3d3d3;
+  --gray-color: #adb4c7;
   --gray-60-color: #2120204d;
   --white-transparent: #f6f7f726;
   --primary-transparent: #ec53423b;
@@ -134,7 +134,7 @@ footer {
 }
 
 .info_project {
-  background: #fff;
+  background: var(--white-color);
   position: absolute;
   left: 0;
   width: 85%;
@@ -150,7 +150,7 @@ footer {
 }
 
 .skills-card {
-  background: #ffffff;
+  background: var(--gray-color);
   text-align: center;
   border-radius: 5px;
   padding: 30px 0px 0px;
@@ -213,7 +213,7 @@ footer {
 }
 
 .skills-card:hover .skills-img {
-  background: #ffffff;
+  background: var(--white-color);
   -webkit-box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.2);
 }
@@ -223,5 +223,5 @@ footer {
 }
 
 .skills-card:hover .skills-name p {
-  color: #ffffff;
+  color: var(--white-color);
 }
