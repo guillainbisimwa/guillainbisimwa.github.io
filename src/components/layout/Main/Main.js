@@ -11,9 +11,8 @@ const Main = () => {
             <h1 className="fw-bold"><span className="c-primary">I'm</span> Guillain</h1>
             <blockquote className="blockquote">
               <p className="mt-3">
-                Full-Stack Web Developer. Able to collaborate within a
-                productive team both remotely and locally. Don't hesitate to
-                contact me.
+              Full Stack Developer proficient with JavaScript, Python, React/Redux, Ruby/Rails, 
+              SQL, HTML/CSS. I am open to new opportunities and challenges.
               </p>
               <footer className="blockquote-footer c-gray">Guillain BISIMWA</footer>
               <a

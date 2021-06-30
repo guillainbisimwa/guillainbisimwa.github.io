@@ -9,8 +9,8 @@ const Skils = () => {
           class="section_details d-none d-md-flex col-sm align-self-center"
         >
           <div class="sep me-2"></div>
-          Freelance Full-stack Developer [ JavaScript | React | Redux | Ruby |
-          RoR ]. Currently looking for new opportunities.
+            Full-stack Developer [ JavaScript | React / Redux |
+          Ruby / Rails, Python, SQL ]. Currently looking for new opportunities.
         </div>
         <div class="exp row d-flex col-gap">
           <div
@@ -33,8 +33,8 @@ const Skils = () => {
               <p class="c-primary">February 2019 - June 2020</p>
               <h5>IT support and database manager</h5>
               <p>
-                Deploying and maintaining
-                <ins><a class="" href="http://cerhis.org">cerhis</a></ins>
+                Deploying and maintaining 
+                <a class="" href="https://twitter.com/cerhis_org"> <ins>cerhis</ins> </a>
                 software, a mobile health information system in a hospital.
                 Using Couchbase, Couchbase sync gateway, JSON, node js...
               </p>
