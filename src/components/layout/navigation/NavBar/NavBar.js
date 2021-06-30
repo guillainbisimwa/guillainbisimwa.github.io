@@ -1,5 +1,5 @@
 import 'bootstrap/scss/bootstrap.scss';
-
+import { FaTwitter, FaFacebook, FaPhone } from 'react-icons/fa';
 
 const NavBar = () => {
     return (
@@ -10,15 +10,14 @@ const NavBar = () => {
                     rel="noopener noreferrer"
                     href="https://web.facebook.com/guylarocheg"
                     rel="noopener"
-                    className="text-white ms-2">  </a>
+                    className="text-white ms-2"> <FaFacebook /> </a>
                     <a target="_blank"
                     rel="noopener noreferrer"
                     href="https://twitter.com/gullain_bisimwa"
                     rel="noopener"
-                    className="text-white ms-2"> </a>
+                    className="text-white ms-2"> <FaTwitter /></a>
                     <a href="#" rel="noopener" className="text-white ms-2">English</a>
                     <a href="#" rel="noopener" className="text-white ms-2">Français</a>
-
                 </div>
             </nav>
             <header className="ps-2 mt-3 container" >
@@ -90,8 +89,7 @@ const NavBar = () => {
                                     className="btn bg-primary_ text-light"
                                     href="tel:+243-828-598-304"
                                     >
-                                    Click to Call
-                                    <i className="fas fa-phone"></i> +243-828-598-304
+                                    Click to Call <FaPhone /> +243-828-598-304
                                     </a>
                                 </li>
                                 </ul>

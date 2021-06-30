@@ -1,6 +1,5 @@
 import 'bootstrap/scss/bootstrap.scss';
-
-
+import { FaTwitter, FaFacebook, FaFile, FaGithub, FaLinkedin, FaAngellist, FaMedium } from 'react-icons/fa';
 
 const Main = () => {
     return (
@@ -21,8 +20,7 @@ const Main = () => {
                 rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1pk1DedK4cquTUmTBW6Cgfz1iaJGpdsHN/view?usp=sharing"
                 className="btn bg-primary_ text-light mt-3"
-                >Get my resume
-                <i className="fas fa-file"></i>
+                >Get my resume  <FaFile />
               </a>
               <div className="mt-3">
                 <a
@@ -31,42 +29,42 @@ const Main = () => {
                   href="https://twitter.com/gullain_bisimwa"
                   rel="noopener"
                   className="text-white ms-2"
-                  ><i className="fab fa-twitter"></i></a>
+                  ><FaTwitter /></a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://web.facebook.com/guylarocheg"
                   rel="noopener"
                   className="text-white ms-2"
-                  ><i className="fab fa-facebook"></i></a>
+                  ><FaFacebook /></a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/guillainbisimwa"
                   rel="noopener"
                   className="text-white ms-2"
-                  ><i className="fab fa-github"></i></a>
+                  ><FaGithub /></a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/guillainbisimwa/"
                   rel="noopener"
                   className="text-white ms-2"
-                  ><i className="fab fa-linkedin"></i></a>
+                  > <FaLinkedin /> </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://angel.co/u/guillain-bisimwa"
                   rel="noopener"
                   className="text-white ms-2"
-                  ><i className="fab fa-angellist"></i></a>
+                  ><FaAngellist /></a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://medium.com/@guillainbisimwa"
                   rel="noopener"
                   className="text-white ms-2"
-                  ><i className="fab fa-medium"></i></a>
+                  ><FaMedium /></a>
               </div>
             </blockquote>
           </div>
