@@ -1,3 +1,5 @@
+import github from './../../../assets/github.png'
+
 const Skils = () => {
     return (
     <section id="experiences" class="row mt-5">
@@ -54,7 +56,128 @@ const Skils = () => {
             </div>
           </div>
         </div>
-        
+        <div class="row pt-5 ">
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src={github} alt="html" />
+                    </div>
+                    <div class="skills-name">
+                        <p>html</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/css.png" alt="css" />
+                    </div>
+                    <div class="skills-name">
+                        <p>css</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/javascript.png" alt="javascript" />
+                    </div>
+                    <div class="skills-name">
+                        <p>javascript</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/bootstrap.png" alt="bootstrap" />
+                    </div>
+                    <div class="skills-name">
+                        <p>bootstrap</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/jquery.png" alt="jquery" />
+                    </div>
+                    <div class="skills-name">
+                        <p>jquery</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/sass.png" alt="sass" />
+                    </div>
+                    <div class="skills-name">
+                        <p>sass</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/wordpress.png" alt="wordpress" />
+                    </div>
+                    <div class="skills-name">
+                        <p>wordpress</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/react.png" alt="react" />
+                    </div>
+                    <div class="skills-name">
+                        <p>react</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/github.png" alt="github" />
+                    </div>
+                    <div class="skills-name">
+                        <p>github</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/vscode.png" alt="vscode" />
+                    </div>
+                    <div class="skills-name">
+                        <p>vscode</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/photoshop.png" alt="photoshop" />
+                    </div>
+                    <div class="skills-name">
+                        <p>photoshop</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2">
+                <div class="skills-card">
+                    <div class="skills-img">
+                        <img src="assets/images/illustrator.png" alt="illustrator" />
+                    </div>
+                    <div class="skills-name">
+                        <p>illustrator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     )
 }

@@ -148,3 +148,80 @@ footer {
 .p-r {
   position: relative;
 }
+
+.skills-card {
+  background: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 30px 0px 0px;
+  margin: 30px;
+  -webkit-box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 15%);
+  box-shadow: 0px 0px 35px 0px rgb(0 0 0 / 15%);
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.skills-img {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0px auto 30px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.skills-img img {
+  width: auto;
+  height: 60px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.skills-name {
+  border-top: 1px solid #e8e8e8;
+}
+
+.skills-name p {
+  color: #48455a;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 8px 0px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+
+.skills-card:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  background: #fe6347;
+}
+
+.skills-card:hover .skills-img {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.skills-card:hover .skills-img img {
+  height: 35px;
+}
+
+.skills-card:hover .skills-name p {
+  color: #ffffff;
+}
