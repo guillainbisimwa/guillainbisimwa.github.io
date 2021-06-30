@@ -5,42 +5,52 @@ import Project from '../../project/Project';
 
 const Projects = () => {
     
-    const [state, setState] = useState({ items: ['js1', 'js2', 'ror', 'html', 'python', 'ruby']});
+    const [state, setState] = useState({ items: ['js1', 'js2', 'js3', 'ror', 'html', 'python', 'ruby']});
    
     const all = () =>
     setState({
-        items: ['js1', 'ror', 'html', 'python', 'ruby']
+        items: ['js1', 'js2', 'js3', 'ror', 'html', 'python', 'ruby']
     });
 
     const rails = () =>
     setState({
-        items: ['js1', 'js2']
+        items: ['ror']
     });
 
     const js = () =>
     setState({
-        items: ['js1', 'js2']
+        items: ['js1', 'js2', 'js3']
     });
 
     const html = () =>
     setState({
-        items: ['js1', 'js2']
+        items: ['html', 'js1', 'js2', 'js3']
     });
 
-    const react = () =>
+    const ruby = () =>
     setState({
-        items: ['js1', 'js2']
+        items: ['ror', 'ruby']
     });
 
-    const redux = () =>
+    const python = () =>
     setState({
-        items: ['js1', 'js2']
+        items: ['python']
     });
 
-    const ts = () =>
-    setState({
-        items: ['js1', 'js2']
-    });
+    // const react = () =>
+    // setState({
+    //     items: ['js1', 'js2']
+    // });
+
+    // const redux = () =>
+    // setState({
+    //     items: ['js1', 'js2']
+    // });
+
+    // const ts = () =>
+    // setState({
+    //     items: ['js1', 'js2']
+    // });
 
     return (
         <div>
@@ -54,9 +64,10 @@ const Projects = () => {
                 <button className="btn bg-primary_ text-light me-3" onClick={rails}>Ruby on Rails</button>
                 <button className="btn bg-primary_ text-light me-3" onClick={js}>JavaScript</button>
                 <button className="btn bg-primary_ text-light me-3" onClick={html}>Html/css</button>
-                <button className="btn bg-primary_ text-light me-3" onClick={react}>React</button>
-                <button className="btn bg-primary_ text-light me-3" onClick={redux}>React/Redux</button>
-                <button className="btn bg-primary_ text-light me-3" onClick={ts}>TypeScript</button>
+                <button className="btn bg-primary_ text-light me-3" onClick={ruby}>Ruby</button>
+                {/* <button className="btn bg-primary_ text-light me-3" onClick={react}>React</button>
+                <button className="btn bg-primary_ text-light me-3" onClick={redux}>React/Redux</button> */}
+                <button className="btn bg-primary_ text-light me-3" onClick={python}>python</button>
             </div>
            
             <ReactMixitup
