@@ -1,4 +1,5 @@
 import 'bootstrap/scss/bootstrap.scss';
+import banner from './../../../assets/banner-pic.png';
 import { FaTwitter, FaFacebook, FaFile, FaGithub, FaLinkedin, FaAngellist, FaMedium } from 'react-icons/fa';
 
 const Main = () => {
@@ -69,7 +70,7 @@ const Main = () => {
             </blockquote>
           </div>
           <div className="user_pic col-md d-none d-md-flex justify-content-end">
-            <img id="profile" className="w-50 m-5" alt="Guillain" src='./assets/banner-pic.png' />
+            <img id="profile" className="w-75 m-5" alt="Guillain" src={banner} />
           </div>
         </section>
     )
