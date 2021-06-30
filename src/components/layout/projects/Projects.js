@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import ReactMixitup from 'react-mixitup';
 import { FaTwitter } from 'react-icons/fa';
-
+import Project from '../../project/Project';
 
 const Projects = () => {
     
-    const [state, setState] = useState({ items: [1, 2, 3, 4] });
+    const [state, setState] = useState({ items: ['js1', 'js2', 'ror', 'html', 'python', 'ruby']});
    
     const rails = () =>
     setState({
-        items: [1,2]
+        items: ['js1', 'js2']
     })
 
     const all = () =>
     setState({
-        items: [1,2,3,4]
+        items: ['js1', 'ror', 'html', 'python', 'ruby']
     })
 
     return (
@@ -27,11 +27,13 @@ const Projects = () => {
             <button className="btn bg-primary_ text-light me-5" onClick={all}>All</button>
             <ReactMixitup
             items={state.items}
+            transition
+            duration={200}
             renderCells={items => (
-                <div >
-                {items.map(({ key, ref, style }) => (
-                    <div key={key} ref={ref} >
-                    {key}
+                <div className='row'>
+                {items.map(({key, ref, style}) => (
+                    <div key={key} className='col-12 col-sm-12 col-md-6 col-lg-3 p-3 p-r' >
+                        <Project project={key} />
                     </div>
                 ))}
                 </div>
