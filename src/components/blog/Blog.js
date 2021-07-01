@@ -1,11 +1,15 @@
 import test from './../../assets/Screenshot.png';
 import { FaCalendar } from 'react-icons/fa';
+import PropTypes from 'prop-types';
 
 import './Blog.css';
 
-const Blog = () => {
+const Blog = ({blog}) => {
+    console.log('blog');
+    console.log(blog);
     return (
-        <div className="col-md-6 col-lg-4">
+        
+        <div className="">
             <div className="blog-card">
                 <div className="blog-img">
                     <img src={test} alt="blog-1"/>
@@ -25,6 +29,10 @@ const Blog = () => {
             </div>
         </div>
     )
+};
+
+Blog.propTypes = {
+    blog: PropTypes.any,
 }
 
 export default Blog;
