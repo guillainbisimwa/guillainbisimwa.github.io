@@ -67,8 +67,7 @@ const NavBar = () => {
                                     >Experiences</a>
                                 </li>
                                 <li className="ms-4 ms-md-0 nav-item">
-                                    <a href="#skills" rel="noopener" className="nav-link text-white"
-                                    >Skills</a>
+                                    <a href="#skills" rel="noopener" className="nav-link text-white">Skills</a>
                                 </li>
                                 <li className="ms-4 nav-item">
                                     <a
@@ -79,7 +78,7 @@ const NavBar = () => {
                                 </li>
                                 <li className="ms-4 nav-item">
                                     <a
-                                    href="blog.html"
+                                    href="#blog"
                                     rel="noopener"
                                     className="nav-link text-white"
                                     >Blog</a>

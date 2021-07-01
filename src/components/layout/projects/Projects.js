@@ -53,8 +53,8 @@ const Projects = () => {
     // });
 
     return (
-        <div>
-            <h2 className='text-center mt-5'>See My Best Works</h2>
+        <div id="projects">
+            <h2 className='text-center mt-5'>See My Best <span className="c-primary">Works</span></h2>
             <p className='text-center c-gray'>You can try search for quick jump and also click category</p>
             <div className='text-center m-4'>
                 <button className="btn bg-primary_ text-light me-5" onClick={all}>
