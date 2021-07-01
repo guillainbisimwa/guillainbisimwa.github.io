@@ -53,7 +53,7 @@ const Projects = () => {
     // });
 
     return (
-        <div>
+        <div id="projects">
             <h2 className='text-center mt-5'>See My Best <span className="c-primary">Works</span></h2>
             <p className='text-center c-gray'>You can try search for quick jump and also click category</p>
             <div className='text-center m-4'>
