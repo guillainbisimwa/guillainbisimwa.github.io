@@ -69,7 +69,7 @@ const Skils = () => {
             </div>
           </div>
         </div>
-        <div className="row pt-5 ">
+        <div id="skills" className="row pt-5">
             <div className="col-6 col-sm-4 col-lg-2">
                 <div className="skills-card">
                     <div className="skills-img">
@@ -113,7 +113,7 @@ const Skils = () => {
             <div className="col-6 col-sm-4 col-lg-2">
                 <div className="skills-card">
                     <div className="skills-img">
-                        <img src={ruby}  alt="jquery" />
+                        <img src={ruby}  alt="ruby" />
                     </div>
                     <div className="skills-name">
                         <p>Ruby/Rails</p>
@@ -123,7 +123,7 @@ const Skils = () => {
             <div className="col-6 col-sm-4 col-lg-2">
                 <div className="skills-card">
                     <div className="skills-img">
-                        <img src={react} alt="sass" />
+                        <img src={react} alt="react" />
                     </div>
                     <div className="skills-name">
                         <p>React</p>
@@ -133,7 +133,7 @@ const Skils = () => {
             <div className="col-6 col-sm-4 col-lg-2">
                 <div className="skills-card">
                     <div className="skills-img">
-                        <img src={redux}  alt="wordpress" />
+                        <img src={redux}  alt="redux" />
                     </div>
                     <div className="skills-name">
                         <p>redux</p>
@@ -143,7 +143,7 @@ const Skils = () => {
             <div className="col-6 col-sm-4 col-lg-2">
                 <div className="skills-card">
                     <div className="skills-img">
-                        <img src={docker} alt="react" />
+                        <img src={docker} alt="docker" />
                     </div>
                     <div className="skills-name">
                         <p>docker</p>
@@ -163,7 +163,7 @@ const Skils = () => {
             <div className="col-6 col-sm-4 col-lg-2">
                 <div className="skills-card">
                     <div className="skills-img">
-                        <img src={mongodb} alt="vscode" />
+                        <img src={mongodb} alt="mongodb" />
                     </div>
                     <div className="skills-name">
                         <p>Mongodb</p>
@@ -173,7 +173,7 @@ const Skils = () => {
             <div className="col-6 col-sm-4 col-lg-2">
                 <div className="skills-card">
                     <div className="skills-img">
-                        <img src={heroku} alt="photoshop" />
+                        <img src={heroku} alt="heroku" />
                     </div>
                     <div className="skills-name">
                         <p>heroku</p>
@@ -183,7 +183,7 @@ const Skils = () => {
             <div className="col-6 col-sm-4 col-lg-2">
                 <div className="skills-card">
                     <div className="skills-img">
-                        <img  src={python} alt="illustrator" />
+                        <img  src={python} alt="python" />
                     </div>
                     <div className="skills-name">
                         <p>python</p>
