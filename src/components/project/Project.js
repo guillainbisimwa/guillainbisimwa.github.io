@@ -45,7 +45,7 @@ const Project = ({project}) => {
            
             <div className="port-oly">
                 <div className="port-btn port-inner-btn">
-                    <a className="btn bg-primary_ btn-sm text-light mt-2 btn-block" href={state[0].link}  target="_blank"
+                    <a className="btn bg-primary_ btn-sm text-light mt-2 btn-block" href={state[0].link} target="_blank"
                     rel="noopener noreferrer">Live preview <FaEye /></a>
                     <button type="button" onClick={openModal} className="btn bg-primary_ btn-sm text-light mt-2 btn-block">View details <FaSeedling /></button>
                 </div>

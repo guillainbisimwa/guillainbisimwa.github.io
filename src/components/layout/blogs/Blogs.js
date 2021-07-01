@@ -11,29 +11,24 @@ const getData = () => {
 }
 
 const Blogs = () => {
-    const blogs = JSON.parse(localStorage.getItem('blogs'));
     getBlogs();
     const data = getData();
-    console.log(data)
     
     return (
         <div id='blog'>
             <h2 className='text-center mt-5'>MY <span className="c-primary">BLOGS</span></h2>
             <p className='text-center c-gray mb-4'>Some articles about my activity & experience</p>
             <div>
-            {blogs && (
+            {data && (
           <div className="row">
-            {blogs.map(item => ( 
+            {data.map(item => ( 
                 <div className='col-md-6 col-lg-4' key={item.title}>
                     <Blog blog={item} />
                 </div>)
             )}
             </div>)
             }
-        
-
             </div>
-           
         </div>
     )
 }
