@@ -4,7 +4,6 @@ import Blog from "../../blog/Blog";
 
 const getData = () => {
     const blogs = JSON.parse(localStorage.getItem('blogs'));
-    console.log(blogs)
     if (blogs !== null && blogs.length > 0) {
       return blogs;
     }
