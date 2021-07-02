@@ -30,10 +30,10 @@ const Blog = ({blog}) => {
                     </div>
                     <div className="blog-text">
                         <h4>{shortenText(blog.title, 0, 30)}</h4>
-                        <h5><a href="#">{shortenText(toText(blog.content), 0, 150)}...</a></h5>
+                        <h6><a href="#">{shortenText(toText(blog.content), 0, 150)}...</a></h6>
                     </div>
-                    <a className="btn bg-primary_ text-light" href={blog.link} target="_blank"
-                    rel="noopener noreferrer">Read more...</a>
+                    <a className="btn btn-sm bg-primary_ text-light" href={blog.link} target="_blank"
+                    rel="noopener noreferrer">Read more</a>
                 </div>
             </div>
         </div>

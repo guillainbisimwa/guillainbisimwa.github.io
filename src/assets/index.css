@@ -3,7 +3,7 @@
   --dark-color: #0e0e0e;
   --white-color: #fff;
   --gray-color: #adb4c7;
-  --gray-60-color: #2120204d;
+  --gray-60-color: #212020b0;
   --white-transparent: #f6f7f726;
   --primary-transparent: #ec53423b;
 }
@@ -268,4 +268,19 @@ footer {
   -moz-transition: all linear 0.3s;
   -ms-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
+}
+
+.btn {
+  box-shadow: 1px 0rem 2rem 2px rgb(244 67 54 / 52%) !important;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  color: var(--gray-60-color) !important;
+  transition: 0.5s;
+}
+
+.modal-content,
+.card {
+  background: var(--gray-color);
 }

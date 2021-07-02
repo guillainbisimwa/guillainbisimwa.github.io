@@ -57,17 +57,17 @@ const Projects = () => {
             <h2 className='text-center mt-5'>See My Best <span className="c-primary">Works</span></h2>
             <p className='text-center c-gray'>You can try search for quick jump and also click category</p>
             <div className='text-center m-4'>
-                <button className="btn bg-primary_ text-light me-5" onClick={all}>
+                <button className="btn btn-sm bg-primary_ text-light me-5" onClick={all}>
                     All projects <FaList />
                 </button>
 
-                <button className="btn bg-primary_ text-light me-3" onClick={rails}>Ruby on Rails</button>
-                <button className="btn bg-primary_ text-light me-3" onClick={js}>JavaScript</button>
-                <button className="btn bg-primary_ text-light me-3" onClick={html}>Html/css</button>
-                <button className="btn bg-primary_ text-light me-3" onClick={ruby}>Ruby</button>
+                <button className="btn btn-sm bg-primary_ text-light me-3" onClick={rails}>Ruby on Rails</button>
+                <button className="btn btn-sm bg-primary_ text-light me-3" onClick={js}>JavaScript</button>
+                <button className="btn btn-sm bg-primary_ text-light me-3" onClick={html}>Html/css</button>
+                <button className="btn btn-sm bg-primary_ text-light me-3" onClick={ruby}>Ruby</button>
                 {/* <button className="btn bg-primary_ text-light me-3" onClick={react}>React</button>
                 <button className="btn bg-primary_ text-light me-3" onClick={redux}>React/Redux</button> */}
-                <button className="btn bg-primary_ text-light me-3" onClick={python}>python</button>
+                <button className="btn btn-sm bg-primary_ text-light me-3" onClick={python}>Python</button>
             </div>
            
             <ReactMixitup
