@@ -50,7 +50,7 @@ const Project = ({project}) => {
                     <button type="button" onClick={openModal} className="btn bg-primary_ btn-sm text-light mt-2 btn-block">View details <FaSeedling /></button>
                 </div>
             </div>
-            <Modal className='c-dark' size='lg' show={open} onHide={closeModal}>
+            <Modal className='c-dark bg-gray' size='lg' show={open} onHide={closeModal}>
                 <Modal.Header >
                     <Modal.Title>{state[0].title}</Modal.Title>
                 </Modal.Header>
