@@ -5,12 +5,12 @@ const Contact = () => {
             <div className="row justify-content-center">
               <div className="col-12 col-md-10 col-lg-8 text-center">
                 <h2 className="fw-bold">
-                  If you have got a project in mind, why not get in touch. Let's
+                  If you have got a project in mind, why not get in touch? Let's
                   work together.
                 </h2>
 
                 <p className="font-size-lg text-muted mb-7 mb-md-9">
-                  I'm available className interresting work or projects. Big or small.
+                I'm available for interresting work or projects. Big or small.
                   You can contact me using the form below, or by emailing
                   <b> guillainbisimwa@hotmail.fr</b>
                 </p>
