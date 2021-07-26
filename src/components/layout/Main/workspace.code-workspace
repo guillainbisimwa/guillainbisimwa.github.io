@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "guillainbisimwa.github.io",
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../react-training"
+		},
+		{
+			"path": "../../../../../capstone/find-house-react"
+		},
+		{
+			"path": "../../../../../react-gh-pages"
+		},
+		{
+			"path": "../../../../../temp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "guillainbisimwa.github.io"
+	}
+}

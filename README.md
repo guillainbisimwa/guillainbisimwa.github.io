@@ -1,9 +1,3 @@
----
-noteId: "a05c3480d85111ebae7c5bb1704a9297"
-tags: []
-
----
-
 # About Me
 
 Hello! My name is Guillain, and I'm a full-stack software engineer who specializes in using Javascript, Python, React, Redux, React Native, and Rails to build software solutions for small businesses.
@@ -18,6 +12,10 @@ Hello! My name is Guillain, and I'm a full-stack software engineer who specializ
   [Play store](https://play.google.com/store/apps/details?id=com.wezalab.bomoko), [Official website](http://bomoko-app.com/),
 
 ## Projects
+
+- [React Calculator](https://github.com/guillainbisimwa/React-calculator) -This is a A Simple Calculator Application With React.JS
+  . Built with: `JavaScript`, `Git`, `Webpack`, `Eslint`, `Babel`.
+  [Live version](https://react-calculator-g.herokuapp.com/)
 
 - [Game-adventure](https://github.com/guillainbisimwa/Game-adventure) -This is a 2D side-scrolling action game where players take control of a little girl, running, and jumping through the virtual city! The mission is to collect as many gifts as possible while avoiding an array of obstacles to reach a final goal. Built with: `JavaScript`, `Phaser3`, `Git`, `Webpack`, `Eslint`, `Babel`.
   [Live version](http://gbisimwa.me/Game-adventure/dist/)
