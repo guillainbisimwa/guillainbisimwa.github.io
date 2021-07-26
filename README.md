@@ -1,6 +1,6 @@
 # About Me
 
-Hello! My name is Guillain, and I'm a full-stack software engineer who specializes in using Javascript, Python, React, Redux, React Native, and Rails to build software solutions for small businesses.
+Hello! My name is Guillain, and I'm a Full Stack Developer proficient with JavaScript, Python, React/Redux, Ruby/Rails, SQL, HTML/CSS. I am open to new opportunities and challenges.
 
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/) || [Twitter](https://twitter.com/gullain_bisimwa) || guillainbisimwa@hotmail.fr || [website](http://gbisimwa.me/) || [blog](http://gbisimwa.me/blog)
 
@@ -12,6 +12,9 @@ Hello! My name is Guillain, and I'm a full-stack software engineer who specializ
   [Play store](https://play.google.com/store/apps/details?id=com.wezalab.bomoko), [Official website](http://bomoko-app.com/),
 
 ## Projects
+
+- [React-Bookstore](https://github.com/guillainbisimwa/React-Bookstore) - React-Bookstore is a front-end based application that will help them organize and manage bookstore. Built with: `JavaScript`, `Git`, `React`, `Material-ui`, `Redux`.
+  [Live version](https://react-bookstore-g.herokuapp.com/)
 
 - [React Calculator](https://github.com/guillainbisimwa/React-calculator) -This is a A Simple Calculator Application With React.JS
   . Built with: `JavaScript`, `Git`, `Webpack`, `Eslint`, `Babel`.
