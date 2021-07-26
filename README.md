@@ -13,7 +13,7 @@ Hello! My name is Guillain, and I'm a Full Stack Developer proficient with JavaS
 
 ## Projects
 
-- [Find-house-react](https://github.com/guillainbisimwa/Find-house-react) - Full stack developer, React, Redux, RESTful API · Find-house-react is a front-end app that will help you to retrieve house images and data from [Find-house-API](https://find-your-house-backend.herokuapp.com/), feel free to take a look at this awesome [documentation](http://gbisimwa.me/Find-house-api-doc/). Built with: `React`, `Redux`, `NodeJs`. [Live version](https://find-house.netlify.app/)
+- [Find-house-react](https://github.com/guillainbisimwa/Find-house-react) - Find-house-react is a front-end app that will help you to retrieve house images and data from [Find-house-API](https://find-your-house-backend.herokuapp.com/), feel free to take a look at this awesome [documentation](http://gbisimwa.me/Find-house-api-doc/). Built with: `React`, `Redux`, `NodeJs`. [Live version](https://find-house.netlify.app/)
 
 - [FIND YOUR HOUSE API](https://github.com/guillainbisimwa/Find-house-api-doc) - A beautiful, intelligent, responsive API documentation. The objective of this site is to make data, including imagery, eminently accessible to application developers. Built with: `Ruby On Rails`, `Bundler`, `Rubocop`. [Live version](http://gbisimwa.me/Find-house-api-doc/)
 
