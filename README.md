@@ -13,6 +13,8 @@ Hello! My name is Guillain, and I'm a Full Stack Developer proficient with JavaS
 
 ## Projects
 
+- [Catalogue-of-Recipes](https://github.com/guillainbisimwa/Catalogue-of-Recipes) - This is a recipe catalog based project made using react and redux. Catalog-of-Recipes is a front-end application that will help you retrieve food images from [Pexels Image & Video API](https://www.pexels.com/api/), filter and access details of unique food. Built with: `JavaScript`, `Git`, `React`, `Material-ui`, `Redux`, `Hook`, `REST API`. [Live version](https://catalogue-recipes.herokuapp.com/)
+
 - [React-Bookstore](https://github.com/guillainbisimwa/React-Bookstore) - React-Bookstore is a front-end based application that will help them organize and manage bookstore. Built with: `JavaScript`, `Git`, `React`, `Material-ui`, `Redux`.
   [Live version](https://react-bookstore-g.herokuapp.com/)
 
